@@ -1,6 +1,5 @@
 let a;
 let b;
-let c;
 
 export const Tab = () => {
   if (a === b) {
