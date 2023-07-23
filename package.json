@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -37,7 +38,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-security": "^1.7.1",
     "eslint-plugin-testing-library": "^5.11.0",
-    "husky": "^8.0.3",
+    "husky": "^8.0.0",
     "prettier": "^3.0.0"
   },
   "husky": {
@@ -46,6 +47,6 @@
     }
   },
   "lint-staged": {
-    "*": "prettier --write" 
+    "*": "prettier --write"
   }
 }
